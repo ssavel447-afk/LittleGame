@@ -1,0 +1,17 @@
+name: LittleGame
+version: ${version}
+main: dev.littlegame.battleroyale.LittleGamePlugin
+api-version: '1.21.11'
+author: LittleGame
+commands:
+  start:
+    description: Запускает королевскую битву
+    usage: /start
+    permission: littlegame.admin
+  teams:
+    description: Управление командами королевской битвы
+    usage: /teams
+permissions:
+  littlegame.admin:
+    description: Админские команды LittleGame
+    default: op
